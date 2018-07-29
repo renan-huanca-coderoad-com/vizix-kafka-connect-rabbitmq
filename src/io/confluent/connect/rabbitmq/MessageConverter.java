@@ -135,6 +135,7 @@ class MessageConverter {
         headers.addString("rabbitmq.type", basicProperties.getType());
         headers.addString("rabbitmq.user.id", basicProperties.getUserId());
         headers.addString("rabbitmq.app.id", basicProperties.getAppId());
+
     }
 
     public static void consumerTag(String consumerTag, Headers headers) {
