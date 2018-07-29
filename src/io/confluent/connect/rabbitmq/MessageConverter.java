@@ -119,7 +119,7 @@ class MessageConverter {
         	headers.addInt("rabbitmq.delivery.mode", basicProperties.getDeliveryMode().intValue());
         }
 
-     // path until official library works. -RH
+        // path until official library works. -RH
         if(basicProperties.getPriority() == null) {
         	log.warn("basicProperties.getPriority() returned null. setting 0 as value.");
         	headers.addInt("rabbitmq.priority", 0);
