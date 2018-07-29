@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="kafka-connect-rabbitmq-1.0.0-preview"/>
+	<classpathentry kind="lib" path="libs/amqp-client-4.2.0.jar"/>
+	<classpathentry kind="lib" path="libs/annotations-2.0.1.jar"/>
+	<classpathentry kind="lib" path="libs/connect-utils-0.3.132.jar"/>
+	<classpathentry kind="lib" path="libs/connect-utils-testing-data-0.3.132.jar"/>
+	<classpathentry kind="lib" path="libs/freemarker-2.3.25-incubating.jar"/>
+	<classpathentry kind="lib" path="libs/guava-18.0.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-annotations-2.8.0.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-core-2.8.5.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-databind-2.8.5.jar"/>
+	<classpathentry kind="lib" path="libs/javassist-3.19.0-GA.jar"/>
+	<classpathentry kind="lib" path="libs/kafka-connect-rabbitmq-1.0.0-preview.jar"/>
+	<classpathentry kind="lib" path="libs/reflections-0.9.10.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j-api-1.7.21.jar"/>
+	<classpathentry kind="lib" path="libs/connect-api-1.1.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
